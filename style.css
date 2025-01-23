@@ -1,23 +1,23 @@
 @charset "UTF-8";
 /*
-Theme Name: 4W4 - Eddy Martin
-Theme URI: https://referenced.ca
-Author: Eddy Martin
-Author URI: https://github.com/eddytuto
-Description: Thème de base développer dans le cadre du cours 4W4
+Theme Name: 4W4 - Arik Malenfant-Lacombe
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Author: Arik Malenfant-Lacombe
+Author URI: https://wordpress.org/
+Description: Thème de base développé dans le cadre du cours 4W4
 Version: 1.0
 Tested up to: 6.2
 Requires PHP: 7.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: 4w4-eddy
+Text Domain: 4w4-arik
 */
-/* /////////////////////
-Les Variables
-//////////////////////// */
-/* /////////////////////////
-Les composants
-/////////////////////////// */
+/* /////////////////// 
+Variables
+/////////////////// */
+/* /////////////////// 
+Composants
+/////////////////// */
 .menu ul {
   margin: 0;
   padding: 0;
@@ -28,11 +28,9 @@ Les composants
 .menu ul li a {
   color: #333;
   text-decoration: none;
+  padding: 2px 5px;
 }
 
-/* *******************
-Le composant .carte
-********************** */
 .carte {
   border: 1px solid #ddd;
   padding: 20px;
@@ -69,4 +67,26 @@ Le composant .carte
 }
 .carte__bouton:hover {
   background-color: #0056b3;
+}
+
+/* /////////////////// 
+Layout
+/////////////////// */
+.entete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.entete__nav {
+  display: flex;
+}
+
+.global {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.hero {
+  min-height: 100vh;
+  background-image: url("images/bgHeader.jpg");
 }/*# sourceMappingURL=style.css.map */
