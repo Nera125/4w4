@@ -1,37 +1,47 @@
 @charset "UTF-8";
 /*
-Theme Name: 4W4 - Arik Malenfant-Lacombe
-Theme URI: https://wordpress.org/themes/twentytwenty/
-Author: Arik Malenfant-Lacombe
-Author URI: https://wordpress.org/
-Description: Thème de base développé dans le cadre du cours 4W4
+Theme Name: 4W4 - Eddy Martin
+Theme URI: https://referenced.ca
+Author: Eddy Martin
+Author URI: https://github.com/eddytuto
+Description: Thème de base développer dans le cadre du cours 4W4
 Version: 1.0
 Tested up to: 6.2
 Requires PHP: 7.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: 4w4-arik
+Text Domain: 4w4-eddy
 */
-/* /////////////////// 
-Variables
-/////////////////// */
-/* /////////////////// 
-Composants
-/////////////////// */
+/* /////////////////////
+Les Variables
+//////////////////////// */
+/* /////////////////////////
+Les composants
+/////////////////////////// */
+/* /////////////////////////////////////////// menu principal */
 .menu {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-.menu__li {
-  display: inline-block;
+@media screen and (max-width: 700px) {
+  .menu {
+    flex-direction: column;
+  }
 }
-.menu__li__a {
+.menu__a {
   color: #333;
   text-decoration: none;
   padding: 2px 5px;
 }
 
+/* *******************
+Le composant .carte
+********************** */
 .carte {
   border: 1px solid #ddd;
   padding: 20px;
@@ -39,6 +49,9 @@ Composants
 }
 .carte--grande {
   padding: 40px;
+}
+.carte--petite {
+  padding: 20px;
 }
 .carte__image img {
   max-width: 100%;
@@ -70,9 +83,41 @@ Composants
   background-color: #0056b3;
 }
 
-/* /////////////////// 
-Layout
-/////////////////// */
+.recherche {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.recherche__input {
+  flex: 1;
+  height: 1.8rem;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.02);
+  border-right: 1px dotted rgba(0, 0, 0, 0.2);
+}
+.recherche__input:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+.recherche__img {
+  flex: 0 0 20px;
+  padding: 0 3px;
+}
+
+/* /////////////////////////
+Layout 
+/////////////////////////// */
+.global {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.hero {
+  min-height: 100vh;
+  background-image: url("images/maldives.jpg");
+}
+
 .entete {
   display: flex;
   justify-content: space-between;
@@ -80,14 +125,13 @@ Layout
 }
 .entete__nav {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 40px;
+  flex-wrap: wrap;
 }
-
-.global {
-  margin: 0 auto;
-  max-width: 1100px;
-}
-
-.hero {
-  min-height: 100vh;
-  background-image: url("images/bgHeader.jpg");
+@media screen and (max-width: 700px) {
+  .entete__nav {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
