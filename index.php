@@ -4,14 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TP1 Maxim Chauvette</title>
-  <link rel="stylesheet" href="./sass/normalize.css">
-  <link rel="stylesheet" href="style.css">
+  <?php wp_head(); ?>
 </head>
 <body>
   <header>
     <div class="entete">
       <figure class="entete__logo">
-        <img src="./images/logo.png" alt="logo de la compagnie" height="40" width="auto">
+        <img src="/4w4/wp-content/themes/TP1/images/logo.png" alt="logo de la compagnie" height="40" width="auto">
       </figure>
       
       <label for="chk__burger" class="burger">
@@ -87,16 +86,16 @@
     <div class="galerie__contenu">
         <h2 class="galerie__titre">Destinations de rêve</h2>
         <div class="galerie__images">
-          <img src="./images/img1.jpg" alt="" width="19%">
-          <img src="./images/img2.jpg" alt="" width="19%">
-          <img src="./images/img3.jpg" alt="" width="19%">
-          <img src="./images/img4.jpg" alt="" width="19%">
-          <img src="./images/img5.jpg" alt="" width="19%">
-          <img src="./images/img6.jpg" alt="" width="19%">
-          <img src="./images/img7.jpg" alt="" width="19%">
-          <img src="./images/img8.jpg" alt="" width="19%">
-          <img src="./images/img9.jpg" alt="" width="19%">
-          <img src="./images/img10.jpg" alt="" width="19%">
+          <img src="/4w4/wp-content/themes/TP1/images/img1.jpg" alt="" width="19%">
+          <img src="/4w4/wp-content/themes/TP1/images/img2.jpg" alt="" width="19%">
+          <img src="/4w4/wp-content/themes/TP1/images/img3.jpg" alt="" width="19%">
+          <img src="/4w4/wp-content/themes/TP1/images/img4.jpg" alt="" width="19%">
+          <img src="/4w4/wp-content/themes/TP1/images/img5.jpg" alt="" width="19%">
+          <img src="/4w4/wp-content/themes/TP1/images/img6.jpg" alt="" width="19%">
+          <img src="/4w4/wp-content/themes/TP1/images/img7.jpg" alt="" width="19%">
+          <img src="/4w4/wp-content/themes/TP1/images/img8.jpg" alt="" width="19%">
+          <img src="/4w4/wp-content/themes/TP1/images/img9.jpg" alt="" width="19%">
+          <img src="/4w4/wp-content/themes/TP1/images/img10.jpg" alt="" width="19%">
         </div>
       </div>
   </section>

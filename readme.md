@@ -1,6 +1,7 @@
 # Exercice 1
-## Cours: 4W4-Conception d'interface et développement Web
+## Cours 4W4 Conception d'interface et dev web
 
-Créer une page d'accueil en utilisant le standard BEM et Sass pour reproduire le contenu de maquette.
-Auteur: Eddy Martin
-### Githyb-page: https://eddytuto.github.io/h25-4w4-gr1/
+Creer une page d'accueil en utilisant le standard BEM et Sass pour reproduire le contenu de la maquette
+Autrice: Maxim Chauvette
+
+### Site Github: https://github.com/Nera125/4w4
