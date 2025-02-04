@@ -10,7 +10,7 @@
   <header>
     <div class="entete">
       <figure class="entete__logo">
-        <img src="/4w4/wp-content/themes/TP1/images/logo.png" alt="logo de la compagnie" height="40" width="auto">
+        <img src="/4w4/wp-content/themes/TP1/images/logo.png" alt="logo de la compagnie" height="50" width="auto">
       </figure>
       
       <label for="chk__burger" class="burger">
@@ -43,8 +43,8 @@
   </header>
   <section class="hero">
     <div class="hero__contenu global">
-      <h1 class="hero__titre">Voyagez autrement avec IHOP!</h1>
-      <p class="hero__description">Découvrez des destinations uniques et inoubliables avec IHOP. Nous vous offrons des expériences authentiques, des paysages à couper le souffle et des aventures sur mesure. Partez à la découverte du monde avec nous et crées des souvenirs imérissables.</p>
+      <h1 class="hero__titre">Voyagez autrement avec In Stars and Time!</h1>
+      <p class="hero__description">Découvrez des destinations uniques et inoubliables avec In Stars and Time. Nous vous offrons des expériences authentiques, des paysages à couper le souffle et des aventures sur mesure. Partez à la découverte du monde avec nous et crées des souvenirs imérissables.</p>
       <div class="hero__liens">
         <p class="hero__courriel">info@cmaisonneuve.qc.ca</p>
         <p class="hero__adresse">3800 rue Sherbrooke, Montréal</p>
